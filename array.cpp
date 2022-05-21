@@ -1,34 +1,5 @@
 #include <iostream>
 
-namespace utils
-{
-
-    template <class T>
-    void print(T x)
-    {
-        std::cout << x << std::endl;
-    }
-
-    template <class T>
-    void insert_array(T v[], T n)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            std::cin >> v[i];
-        }
-    }
-
-    template <class T>
-    void print_array(T v[], T n)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            std::cout << v[i] << std::endl;
-        }
-    }
-
-}
-
 class Arr
 {
 private:
