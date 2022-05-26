@@ -2,7 +2,11 @@
 
 class Arr
 {
+    
 private:
+    int size;
+    int *V = (int *)malloc(sizeof(int));
+    
     void scambio(int &x, int &y)
     {
         int a;
@@ -12,8 +16,7 @@ private:
     }
 
 public:
-    int size;
-    int *V = (int *)malloc(sizeof(int));
+
 
     Arr(int *V, int size)
     {
